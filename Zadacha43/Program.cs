@@ -9,8 +9,8 @@ int numberB1 = ReadInt("Введите число b1: ");
 int numberB2 = ReadInt("Введите число b2: ");
 int numberK1 = ReadInt("Введите число k1: ");
 int numberK2 = ReadInt("Введите число k2: ");
-int x = 0;
-int y = 0;
+double x = 0;
+double y = 0;
 
 if(numberK1 == numberK2)
 {
@@ -22,7 +22,7 @@ else
     y = numberK1 * x + numberB1;
 }
 
-Console.WriteLine($"Точка пересечения двух прямых: {y}, {x}");
+Console.WriteLine($"Точка пересечения двух прямых: {y}; {x}");
 
 
 
