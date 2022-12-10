@@ -6,11 +6,11 @@
 string inputNumbers = ReadString("Введите любое количество чисел через запятую: ");
 char split = ','; 
 
-WriteArray(ParsArray(inputNumbers, split));
+int[] numbers = ParsArray(inputNumbers, split);
 int count = 0;
-for(int i = 0; i < inputNumbers.Length; i++)
+for(int i = 0; i < numbers.Length; i++)
 {
-    if(inputNumbers[i]>0)
+    if(numbers[i]>0)
     {
         count++;
     }
