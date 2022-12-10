@@ -18,7 +18,7 @@ if(numberK1 == numberK2)
 }
 else
 {
-    x = (numberB2-numberB1)/(numberK2-numberK1);
+    x = Convert.ToDouble(numberB2-numberB1)/(numberK1-numberK2);
     y = numberK1 * x + numberB1;
 }
 
